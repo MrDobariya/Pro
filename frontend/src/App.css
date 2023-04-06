@@ -278,16 +278,16 @@ nav {
 /*background Images */
 
 .slide:first-child {
-  background: url("https://unsplash.com/photos/MQUqbmszGGM") no-repeat center top/cover;
+  background: url("https://img.freepik.com/free-photo/traditional-supreme-pizza-isolated-white-background_123827-20130.jpg?w=2000&t=st=1680757683~exp=1680758283~hmac=ef378f6d9ca88af526f422b90aaa36b9e8179cf76af6768843723f131db4d655") no-repeat center top/cover;
 }
 .slide:nth-child(2) {
-  background: url("https://i.imgur.com/7rwaigw.jpg") no-repeat center top/cover;
+  background: url("https://img.freepik.com/premium-photo/burger-flight-white-background_325774-4395.jpg?w=2000") no-repeat center top/cover;
 }
 .slide:nth-child(3) {
-  background: url("https://i.imgur.com/3Obf6Tt.jpg") no-repeat center top/cover;
+  background: url("https://img.freepik.com/free-photo/top-view-frame-with-delicious-breakfast-copy-space_23-2148329262.jpg?w=2000&t=st=1680757822~exp=1680758422~hmac=6dccf2f153aa2de2b80f25c9065354dcc7abf3e4b14604e2d6540e895b33c34e") no-repeat center top/cover;
 }
 .slide:nth-child(4) {
-  background: url("https://i.imgur.com/laeEnPm.jpg") no-repeat center top/cover;
+  background: "https://img.freepik.com/free-photo/top-view-delicious-slice-strawberry-cake_23-2147984224.jpg?w=2000&t=st=1680757994~exp=1680758594~hmac=558b5cff0331580a426e6dc583cfd88407a2abfada13c6e9a7894ba717870942" no-repeat center top/cover;
 }
 /*/////////////Categories Cards ///////////////*/
 .cards {
