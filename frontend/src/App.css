@@ -289,7 +289,9 @@ nav {
 .slide:nth-child(4) {
   background: "https://img.freepik.com/free-photo/top-view-delicious-slice-strawberry-cake_23-2147984224.jpg?w=2000&t=st=1680757994~exp=1680758594~hmac=558b5cff0331580a426e6dc583cfd88407a2abfada13c6e9a7894ba717870942" no-repeat center top/cover;
 }
+
 /*/////////////Categories Cards ///////////////*/
+
 .cards {
   display: grid;
   margin: 48px;
