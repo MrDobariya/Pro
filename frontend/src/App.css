@@ -365,6 +365,7 @@ nav {
   opacity: 0.9;
   z-index: 0;
   background: linear-gradient(180deg, rgb(75, 57, 116), rgba(0, 0, 0, 0.493));
+  /* background: linear-gradient(180deg, #c98c8c, #000000); */
 }
 .ShopNowcg::after {
   content: "";

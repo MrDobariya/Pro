@@ -50,10 +50,10 @@ const Checkout = ({history}) => {
                         <Stack spacing={3}>
                             
                             <Select variant="flushed" onChange = {(e) => setCountry(e.target.value)} >
-                                <option value="Maroc">Maroc</option>
-                                <option value="Algerie">Algerie</option>
+                                <option value="Maroc">Indiaf</option>
+                                {/* <option value="Algerie">Algerie</option>
                                 <option value="France">France</option>
-                                <option value="Espagne">Espagne</option>
+                                <option value="Espagne">Espagne</option> */}
                             </Select>
                             
                         </Stack>

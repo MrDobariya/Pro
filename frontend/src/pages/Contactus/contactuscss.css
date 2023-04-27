@@ -30,6 +30,11 @@
   filter: grayscale(40%);
 }
 
+.imageContact{
+  height: 35rem;
+  width: 100%;
+}
+
 .card-contact {
   display: flex;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);

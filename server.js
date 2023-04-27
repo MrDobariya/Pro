@@ -42,6 +42,7 @@ app.use(notFound);
 app.use(errorHandler);
 
 app.get('/', (req, res) => {
+    console.log("hello");
     res.send({
         message: 'Welcome'
     })

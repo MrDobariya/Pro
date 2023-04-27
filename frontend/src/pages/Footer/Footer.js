@@ -30,7 +30,7 @@ const Footer = () => {
                 <div className="footerGetInTouch">
                     <h1>Get in touch</h1>
                     <ul>
-                        <p>Any questions? Let us know in store at BP 473 Complexe universitaire Al Qods, Oujda 60000 or call us on (+212) 65964665</p>
+                        <p>Any questions? Let us know in store at Surat or call us on (+91) 9876543210</p>
                         <li className="footerIcons">
                             <FiFacebook size="25" />
                         </li>
@@ -67,10 +67,8 @@ const Footer = () => {
                     
                 </div>
                 
-                <div className="paragraphFooter"><p>Copyright ©2021 All rights reserved | This template is made with ♡ by Developers of ESTO</p>
-                <Link to = '' >Abdessamad bourhjoul</Link>
-                <Link to = ''  >Soufian zaam</Link>
-                <Link to = ''  >Souhail ouabou</Link>
+                <div className="paragraphFooter"><p>Copyright ©2023 All rights reserved</p>
+                
                 </div>
 
 
