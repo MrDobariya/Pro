@@ -712,7 +712,7 @@ nav {
     opacity: 0;
   }
   .slide:first-child {
-    background: url("product2media.png") no-repeat center top/cover;
+    background: url("https://media.istockphoto.com/id/1206323282/photo/juicy-hamburger-on-white-background.jpg?s=612x612&w=0&k=20&c=K0DxyiChLwewXcCy8aLjjOqkc8QXPgQMAW-vwRCzqG4=") no-repeat center top/cover;
   }
   .slide:nth-child(2) {
     /* position: absolute; */
