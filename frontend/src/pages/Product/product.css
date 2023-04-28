@@ -162,7 +162,7 @@
   margin: 0;
 
   list-style: none;
-  background: url("./checked.png") left center no-repeat;
+  background: url("") left center no-repeat;
   background-size: 18px;
   padding-left: 1.7rem;
   margin: 0.4rem 0;
@@ -172,7 +172,7 @@
 .product-detail ul li {
   margin: 0;
   list-style: none;
-  background: url("./checked.png") left center no-repeat;
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTe8WO-Rb4P4aRqGwz-dhUB8j4Xg43OZJzjiGZ81_4N3w&s") left center no-repeat;
   background-size: 18px;
   padding-left: 1.7rem;
   margin: 0.4rem 0;

@@ -6,7 +6,7 @@ import { Helmet } from 'react-helmet';
 
 import './Placeorder.css'
 const Placeorder = ({ history }) => {
-    const [show , serShow]  = useState(false);
+    const [show , setShow]  = useState(true);
     const dispatch = useDispatch();
     const cart = useSelector(state => state.cart)
     const addDecimals = (num) => {
@@ -31,7 +31,9 @@ const Placeorder = ({ history }) => {
             totalPrice: cart.totalPrice,
 
         }))
+        setShow(false)
     }
+    console.log("SHOW",show);
     const continueShopping = ()=>{
         window.location.href='http://localhost:3000';
     }
@@ -42,6 +44,11 @@ const Placeorder = ({ history }) => {
         }
         //eslint-disable-next-line
     }, [history])
+
+    function showBtn (){
+        setShow(true);
+    }
+
     return (
         <div className="placeorder">
             <Helmet>
@@ -95,6 +102,7 @@ const Placeorder = ({ history }) => {
                         {
                             show && show ? (
                                 <div>
+                                
                                 <div className="div-placeorder-btn">
                             <button className="placeorder-btn" onClick={Placeorderhanlder}  data-toggle="modal" data-target="#exampleModal">Place Order</button>
                             {error && error}
@@ -103,8 +111,8 @@ const Placeorder = ({ history }) => {
 
                                 </div>
                             ):(
-                                <div>
-
+                                <div id='maindiv'>
+                                <h1 id='orderConfim'>Your Order is Confim</h1>
 
                                 <div className='div-continueShopping-btn'>
                             <button className='continueShopping-btn' onClick={continueShopping}>Continue Shoppiing</button>

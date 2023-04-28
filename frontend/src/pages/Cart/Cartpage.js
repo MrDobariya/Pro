@@ -62,14 +62,17 @@ const Cartpage = ({match,location,history}) => {
             For free.
 
             </h3>
+{/* 
             <h3>
             Taxes :
 
             </h3>
+            
             <h3 className = 'totalprice'>
             -- --.
 
             </h3>
+ */}
             <h3>
             Total :
 

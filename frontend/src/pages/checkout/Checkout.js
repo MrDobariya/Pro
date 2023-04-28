@@ -56,7 +56,7 @@ const Checkout = ({ history }) => {
                 onChange={(e) => setAddress(e.target.value)}
               />
               <br />
-              <label className="this-label">Country</label>
+              {/* <label className="this-label">Country</label>
               <br />
               <Stack spacing={3}>
                 <Select
@@ -324,13 +324,13 @@ const Checkout = ({ history }) => {
                   <option value="EH">Western Sahara</option>
                   <option value="YE">Yemen</option>
                   <option value="ZM">Zambia</option>
-                  <option value="ZW">Zimbabwe</option>
+                  <option value="ZW">Zimbabwe</option> */}
 
                   {/* <option value="Algerie">Algerie</option>
                                 <option value="France">France</option>
                                 <option value="Espagne">Espagne</option> */}
-                </Select>
-              </Stack>
+                {/* </Select>
+              </Stack> */}
               <div className="city-cp-check">
                 <div>
                   <label for="city" className="this-label">

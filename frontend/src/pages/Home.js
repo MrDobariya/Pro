@@ -19,7 +19,7 @@ const Home = () => {
                  <div className="cards">
                          <Cardscg title='Pizza'/>
                          <Cardscg title='Burger'/>
-                         <Cardscg title='Meal'/>                
+                         <Cardscg title='Coffee'/>                
                  </div>
                 <CgDiv/>
                 <ProductsC/>

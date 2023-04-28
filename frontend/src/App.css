@@ -387,15 +387,16 @@ nav {
 .cardscg:first-child {
   /* nirbhay custom */
   background: url("https://www.crustpizzaco.com/assets/theme/cpc/images/pizza-main.png") no-repeat center top/contain;
+  /* background: url("https://www.crustpizzaco.com/assets/theme/cpc/images/pizza-main.png") no-repeat center top/contain; */
   /* background: url("https://i.imgur.com/ugsxgsY.jpg") no-repeat center top/cover; */
 }
 .cardscg:nth-child(2) {
-  background: url("https://res.cloudinary.com/swiggy/image/upload/f_auto,q_auto,fl_lossy/l0qyfnixx6blsnmlp7sg") no-repeat center top/contain;
+  background: url("https://img.freepik.com/premium-photo/hamburger-isolated-white_221796-14.jpg?w=1800") no-repeat center top/contain;
   /* background: url("https://www.burgerking.com.sg/upload/image/Category/1/WHOPPER.png") no-repeat center top/cover; */
   /* background: url("https://i.imgur.com/roN4Tqt.jpg") no-repeat center top/cover; */
 }
 .cardscg:nth-child(3) {
-  background: url("https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ij2Y1AC4y9hI/v1/1200x-1.jpg") no-repeat center top/cover;
+  background: url("https://img.freepik.com/premium-photo/top-view-black-coffee-americano-white-cup-isolated-white_30478-6336.jpg?w=2000") no-repeat center top/cover;
   /* background: url("./img1.jpg") no-repeat center top/cover; */
 }
 

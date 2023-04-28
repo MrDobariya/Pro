@@ -30,7 +30,10 @@ const Footer = () => {
                 <div className="footerGetInTouch">
                     <h1>Get in touch</h1>
                     <ul>
-                        <p>Any questions? Let us know in store at Surat or call us on (+91) 9876543210</p>
+                    <p> <span id='hoursOpen'> Hours Open </span> <br /><br />
+                            9:00 am to 2:00  pm <br /><br />
+                            5:00 pm to 12:00 am 
+                        </p>
                         <li className="footerIcons">
                             <FiFacebook size="25" />
                         </li>
@@ -43,7 +46,7 @@ const Footer = () => {
                     </ul>
                 </div>
 
-                <div className="footerNews">
+                {/* <div className="footerNews">
                     <h1>Newsletter</h1>
                     <ul>
                         <li>
@@ -55,8 +58,8 @@ const Footer = () => {
                             <button className="footerBtn">Subscribe</button>
                         </li>
                     </ul>
-                </div>
-
+                </div> */}
+{/* 
                 <div className="creditsIcons">
                     <ul>
                         <li><img src="https://i.imgur.com/AHCoUZO.png" className="img1"/></li>
@@ -66,7 +69,7 @@ const Footer = () => {
                     </ul>
                     
                 </div>
-                
+                 */}
                 <div className="paragraphFooter"><p>Copyright ©2023 All rights reserved</p>
                 
                 </div>
