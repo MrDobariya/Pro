@@ -208,9 +208,9 @@ const Editproduct = ({match,history}) => {
                          <Stack direction="row">
                       <Checkbox onChange = {() =>{checkboxhandlercg('Pizza');setMenselected(!Menselected)}} isChecked = {Menselected}>Pizza </Checkbox>
                       <Checkbox onChange = {() =>{checkboxhandlercg('Burger') ; setWomenselected(!Watchesselected)}} isChecked = {Womenselected}>Burger </Checkbox>
-                      <Checkbox onChange = {() =>{checkboxhandlercg('Coffee'); setBagselected(!Bagselected)}} isChecked = {Bagselected}>Drink </Checkbox>
-                      <Checkbox onChange = {() =>{checkboxhandlercg('shake') ; setWatchesselected(!Watchesselected)}} isChecked = {Watchesselected}>shake </Checkbox>
-                      <Checkbox onChange = {() =>{checkboxhandlercg('Noodle') ; setShoesselected(!Shoesselected)}} isChecked = {Shoesselected}>Noodle </Checkbox>
+                      <Checkbox onChange = {() =>{checkboxhandlercg('Meal') ; setShoesselected(!Shoesselected)}} isChecked = {Shoesselected}>Meal </Checkbox>
+                      <Checkbox onChange = {() =>{checkboxhandlercg('Coffee'); setBagselected(!Bagselected)}} isChecked = {Bagselected}>Coffee </Checkbox>
+    
                       <Checkbox onChange = {() =>{checkboxhandlercg('Cookie') ; setJacketselected(!Jacketselected)}} isChecked = {Jacketselected}>Cookie </Checkbox>
                       </Stack>
   

@@ -399,8 +399,17 @@ nav {
   background: url("https://img.freepik.com/premium-photo/top-view-black-coffee-americano-white-cup-isolated-white_30478-6336.jpg?w=2000") no-repeat center top/cover;
   /* background: url("./img1.jpg") no-repeat center top/cover; */
 }
-
-/* --- CgDiv ----*/
+/*  */
+.main{
+  margin-top: 100px;
+}
+#emailFiled, #pwdFiled{
+  border: 1px solid;
+}
+#btnSubmit{
+  border: 1px solid;
+}
+/* -- CgDiv ----*/
 
 .Cgfilter {
   margin: 35px;

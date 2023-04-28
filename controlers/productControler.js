@@ -76,6 +76,7 @@ const getProductById = asyncHandler(async (req, res) => {
     }
 })
 
+
 // @desc Delete a product
 // @route GET /api/products/:id
 // @access Private/Admin 
@@ -102,7 +103,7 @@ const createProduct = asyncHandler(async (req, res) => {
         description : 'sample description',
         user : req.user._id,
         sizes : [],
-        images : ['https://i.imgur.com/QN2BSdJ.jpg','https://i.imgur.com/QN2BSdJ.jpg','https://i.imgur.com/QN2BSdJ.jpg'],
+        images : ['https://images.unsplash.com/photo-1491960693564-421771d727d6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1063&q=80','https://images.unsplash.com/photo-1553979459-d2229ba7433b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1668&q=80','https://images.unsplash.com/photo-1549611016-3a70d82b5040?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1730&q=80'],
         category : [],
         countInStock :  0,
         numReviews : 0

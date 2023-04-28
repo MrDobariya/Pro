@@ -124,8 +124,8 @@ const submithanlder = () =>{
               text={`${product.numReviews} reviews`}
               />
           <div className = "product-price">
-            <p className = "last-price">Old Price: <span>₹ {product.price + product.price * 0.5}</span></p>
-            <p className = "new-price">New Price: <span>₹ {product.price} (5%)</span></p>
+            {/* <p className = "last-price">Old Price: <span>₹ {product.price + product.price * 0.5}</span></p> */}
+            <p className = "new-price">  Price: <span>₹ {product.price}</span></p>
           </div>
           
           <div className = "product-detail">
@@ -144,7 +144,7 @@ const submithanlder = () =>{
             <ul>
               <li>Status: <span>{product.countInStock > 0 ? 'in stock' :  'Out Of Stock'}</span></li>
               <li>Category: <span>{product.category.map(cg =>' | ' + cg + ' | ')}</span></li>
-              <li>Shipping Area: <span>All over the world</span></li>
+              {/* <li>Shipping Area: <span>All over the world</span></li> */}
               <div>
                 <ul> <li>Qty :</li>
              {product.countInStock > 0 ?

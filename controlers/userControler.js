@@ -1,10 +1,37 @@
 import asyncHandler from 'express-async-handler'
 import generateToken from '../utils/generateToken.js'
 import User from '../models/userModel.js'
+import bcrypt from 'bcryptjs'
+
+
+const forgetpassword = asyncHandler(async (req, res) => {
+      console.log("abcd");
+    const email = req.body.email;
+    const password = req.body.password;
+      console.log("ojifs");
+      console.log(password);
+      console.log(req.bodys);
+    const salt = await bcrypt.genSalt(10);
+    const passwords = await bcrypt.hash(password, salt);
+    console.log(passwords);
+  
+    User.find({ email }).then((data) => {
+        console.log("++++++++++++++++++=",data);
+      if (data != "") {
+        User.updateOne({ password: passwords }).then((data) => {
+          // console.log(data);
+          res.send({ res: "success", data: data });
+        });
+      } else {
+        res.send({ res: "user not found" });
+      }
+    });
+  });
 
 // @desc Auth user & get token
 // @route POST /api/users/login
 // @access Public
+
 const authUser = asyncHandler(async (req, res) => {
 
     const { email, password } = req.body
@@ -27,7 +54,6 @@ const authUser = asyncHandler(async (req, res) => {
 
 
 })
-
 
 
 // @desc Register a new user
@@ -64,7 +90,6 @@ const registerUser = asyncHandler(async (req, res) => {
     }
 
 })
-
 
 
 // @desc Get user profile
@@ -200,4 +225,4 @@ const deleteUser = asyncHandler(async (req, res) => {
 
 
 
-export { authUser, getUserProfile, registerUser, updateUserProfile, getUsers, deleteUser, getUserByID, updateUser }
+export { authUser, getUserProfile, registerUser, updateUserProfile, getUsers, deleteUser, getUserByID, updateUser , forgetpassword}
